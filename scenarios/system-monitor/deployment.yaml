@@ -34,8 +34,8 @@ spec:
         image: madhuakula/k8s-goat-system-monitor
         resources:
           limits:
-            memory: "50Mi"
-            cpu: "20m"
+            memory: "500Mi"
+            cpu: "200m"
         securityContext:
           allowPrivilegeEscalation: true
           privileged: true
